@@ -1,0 +1,55 @@
+body{
+    margin: 0;
+}
+.navbar-container{
+    display:flex;
+    background-color: navajowhite;
+    padding: 10px 100px;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-list ul{
+    list-style: none;
+    display: flex ;
+    gap:20px;
+}
+
+.brand-logo img{
+    height: 30px;
+}
+
+.nav-list ul li a{
+    text-decoration: none;
+    color: navy;
+    font-size: 18px;
+}
+.content {
+    display: flex;
+    margin:0 100px;
+    gap: 50px;
+    align-items: center;
+}
+
+.content-image img{
+    height: 350px;
+}
+.btn-lanjut:hover {
+    background-color: #c9302c;
+}
+
+.btn-pill {
+  display: inline-block;
+  background: red;
+  color: white;
+  padding: 10px 25px;
+  border-radius: 50px;   /* membuat bentuk oval */
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 14px;
+  transition: background 0.3s ease;
+}
+
+.btn-pill:hover {
+  background: darkred;
+}
+
